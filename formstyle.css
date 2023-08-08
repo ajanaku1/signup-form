@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    color: #ffffff;
+    background-image: url(bgform.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.home {
+    position: absolute;
+    left: 40%;
+    top: 30%;
+    width: 20%;
+    height: 40%;
+    background-color: #593f3fa1;
+    border: 1px solid #ffffff;
+    border-radius: 12px;
+    overflow-y: auto;
+}
+
+.container {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 767px) {
+    body {
+        background-image: url(bgform1.jpg);
+        background-size: cover;
+    }
+
+    .home {
+        width: 80%;
+        left: 10%;
+        top: 30%;
+    }
+}
