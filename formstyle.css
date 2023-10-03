@@ -28,8 +28,8 @@ body {
 }
 
 @media (max-width: 767px) {
-    body {
-        background-image: url(bgform1.jpg);
+     body {
+        background-size: auto;
     }
 
     .home {
